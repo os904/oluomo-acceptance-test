@@ -22,6 +22,7 @@ Feature: Account Management
     When user enter "<UserName>" and "<Password>"
     And  User clicks on login button
     Then  login  is successfully
+    When user is
 
     Examples:
       | UserName      | Password   |
